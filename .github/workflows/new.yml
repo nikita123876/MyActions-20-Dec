@@ -1,0 +1,15 @@
+name: Action workflow
+
+on:
+  workflow_dispatch:
+  
+  push:
+  
+ jobs:
+   run-java-file:
+   
+  runs-on: ubuntu-latest
+   steps:
+   - uses: actions/path@v1
+    
+      
